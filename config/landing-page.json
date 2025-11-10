@@ -1,0 +1,199 @@
+{
+  "settings": {
+    "theme": {
+      "primaryColor": "#0051E9",
+      "secondaryColor": "#8DC63F",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#1F2937",
+      "borderRadius": "0.5rem"
+    },
+    "typography": {
+      "fontPrimary": "Inter",
+      "fontBody": "Inter"
+    },
+    "seo": {
+      "title": "Template de Landing Page Dinâmica",
+      "description": "Um template incrível feito com Next.js e muito amor."
+    },
+    "whatsappLink": "https://wa.me/92995267590?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Climeco%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20um%20projeto%20de%20climatiza%C3%A7%C3%A3o."
+  },
+  "header": {
+    "logo": "/images/logo.png",
+    "ctaButton": {
+      "text": "Fale Conosco",
+      "href": "/contact"
+    }
+  },
+  "sections": [
+    {
+      "component": "Hero",
+      "settings": {
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
+        "textColor": "#F7FAFC", 
+        "overlayColor": "#0F172A",
+        "overlayOpacity": 0.6,
+        "id": "inicio"     
+      },
+      "data": {
+        "title": "A Solução Definitiva em Climatização para Projetos Exigentes",
+        "subtitle": "Projetos, instalação e manutenção de sistemas de ar-condicionado para construtoras, escritórios de arquitetura e clientes de alto padrão. Suporte técnico completo, do início ao fim da sua obra.",
+        "ctaButton": {
+          "text": "Fale com um Especialista",
+          "href": "https://wa.me/92995267590?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Climeco%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20um%20projeto%20de%20climatiza%C3%A7%C3%A3o."
+        },
+        "backgroundImageSrc": "/images/hero.png",
+        "image": {
+          "src": "/placeholder.svg",
+          "alt": "Ilustração de um produto digital"
+        }
+      }
+    },
+  {
+      "component": "Features",
+      "settings": {
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
+        "backgroundColor": "#F8FAFC",
+        "textColor": "#0F172A",
+        "id": "features",      
+        "menuTitle": "Recursos"  
+      },
+      "data": {
+        "title": "Soluções Completas em Climatização",
+        "subtitle": "Do projeto técnico à manutenção, garantimos a performance e a perfeita integração estética com o seu ambiente.",
+        "items": [
+          {
+            "icon": "DraftingCompass",
+            "title": "Projetos de Climatização (PMOC)",
+            "description": "Desenvolvemos projetos completos e Planos de Manutenção (PMOC), garantindo eficiência energética e total integração com o design arquitetônico."
+          },
+          {
+            "icon": "HardHat",
+            "title": "Instalação e Infraestrutura",
+            "description": "Nossas equipes profissionais executam a instalação de sistemas complexos (Split, Cassete, VRF/VRV) com precisão, limpeza e rigoroso cumprimento do cronograma."
+          },
+          {
+            "icon": "ShieldCheck",
+            "title": "Manutenção Preventiva e Corretiva",
+            "description": "Garanta a longevidade do sistema e a qualidade do ar. Oferecemos planos de manutenção e atendimento ágil para chamados emergenciais."
+          }
+        ]
+      }
+    },
+        {
+      "component": "AboutUs",
+      "settings": {
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
+        "backgroundColor": "#FFFFFF", 
+        "textColor": "#0F172A",
+        "id": "sobre",         
+        "menuTitle": "Sobre Nós"  
+      },
+      "data": {
+        "title": "Prazo e Qualidade São Inegociáveis.",
+        "paragraphs": [
+          "Na Climeco, entendemos as exigências de projetos de alto padrão e obras complexas. Por isso, construímos nossa reputação em dois pilares que não negociamos: prazo rigoroso e qualidade absoluta.",
+          "Contamos com equipes altamente profissionais, prontas para atender qualquer tipo de cliente, em qualquer ocasião. Oferecemos suporte total a construtoras e arquitetos, desde o atendimento inicial até a finalização completa, garantindo a execução perfeita do seu projeto de climatização."
+        ],
+        "image": {
+          "src": "/images/about.png",
+          "alt": "Equipe trabalhando em um escritório moderno"
+        },
+        "ctaButton": {
+          "text": "Fale com nossa equipe técnica",
+          "href": "/sobre"
+        }
+      }
+    },
+    {
+      "component": "Testimonials",
+      "settings": {
+        "paddingTop": "lg",
+        "paddingBottom": "lg",
+        "backgroundColor": "#F8FAFC",
+        "textColor": "#0F172A",
+        "id": "depoimentos",        
+        "menuTitle": "Depoimentos"        
+      },
+      "data": {
+        "title": "A Confiança de Nossos Parceiros",
+        "subtitle": "O que construtoras, arquitetos e clientes dizem sobre a Climeco.",
+        "items": [
+          {
+            "quote": "A Climeco é, sem dúvida, nossa melhor parceira em climatização. O comprometimento com o cronograma da obra é o grande diferencial.",
+            "name": "Ricardo Alves",
+            "role": "Diretor de Obras",
+            "avatarSrc": "/avatars/ricardo_alves.png"
+          },
+          {
+            "quote": "Profissionalismo impecável. A equipe técnica é limpa, organizada e sempre entrega uma solução que respeita 100% o projeto de interiores.",
+            "name": "Ana Beatriz Costa",
+            "role": "Arquiteta",
+            "avatarSrc": "/avatars/ana_beatriz.png"
+          },
+          {
+            "quote": "Serviço de manutenção excelente. Rápidos, eficientes e muito profissionais. Recomendo para todos os meus clientes de alto padrão.",
+            "name": "Mariana Salles",
+            "role": "Arquiteta de Interiores",
+            "avatarSrc": "/avatars/mariana_salles.png"
+          }
+        ],
+        "ctaButton": {
+          "text": "Conheça mais sobre nós",
+          "href": "https://wa.me/92995267590?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Climeco%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20um%20projeto%20de%20climatiza%C3%A7%C3%A3o."
+        }
+      }
+    },
+    {
+ "component": "Contact",
+  "settings": {
+    "paddingTop": "xl",
+    "paddingBottom": "xl",
+    "id": "contato",
+    "menuTitle": "Contato"
+  },
+  "data": {
+    "title": "Fale Conosco Agora Mesmo!",
+    "subtitle": "Preencha o formulário abaixo e retornaremos o mais breve possível. Ou, se preferir, chame no WhatsApp.",
+    "recipientEmail": "climaeco.am@gmail.com", 
+    "googleScriptUrl": "https://script.google.com/macros/s/AKfycbw75dlrX3vNeFprdRiISlHLHj4va34emB3nf2UrjLDf-7ODVaxtwIu_XIfazzaYJLK4/exec",
+    "ctaButton": {
+      "text": "Prefiro Chamar no WhatsApp",
+      "href": "https://wa.me/92995267590?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Climeco%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20um%20projeto%20de%20climatiza%C3%A7%C3%A3o." 
+    }
+  }
+},
+    {
+      "component": "Footer",
+      "settings": {        
+        "backgroundColor": "#0F172A", 
+        "textColor": "#FFFFFF"        
+      },
+      "data": {
+        "copyrightText": "© 2025 Climeco Instalações e Climatização. Todos os direitos reservados.",
+        "socialLinks": [
+          { "platform": "Instagram", "href": "https://www.instagram.com/climeco.climatizacao" }
+        ],
+        "linkColumns": [
+          {
+            "title": "Nossos Serviços",
+            "links": [
+              { "text": "Recursos", "href": "#features" },
+              { "text": "Preços", "href": "#pricing" }
+            ]
+          },
+          {
+            "title": "Empresa",
+            "links": [
+              { "text": "Sobre Nós", "href": "#about" },
+              { "text": "Depoimentos", "href": "#testimonials" },
+              { "text": "Contato", "href": "#contact" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
