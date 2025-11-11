@@ -56,13 +56,14 @@ export function AboutUs({ data, settings }: { data: AboutUsData; settings: About
               <p key={index}>{text}</p>
             ))}
           </div>
-
+          <div className="text-center">
           {/* Renderiza o botão apenas se ele existir no JSON */}
           {data.ctaButton && (
-            <Button asChild variant="default" size="lg" className='bg-[#8DC63F] hover:bg-[#7CB731] text-blue-50 font-bold'>
+            <Button asChild variant="default" size="lg" className='mx-auto bg-[#8DC63F] hover:bg-[#7CB731] text-blue-50 font-bold'>
               <a href={data.ctaButton.href}>{data.ctaButton.text}</a>
             </Button>
           )}
+          </div>
         </div>
 
       </div>
