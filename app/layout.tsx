@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import './globals.css';
 
 import { Inter, Poppins, Roboto_Slab } from 'next/font/google';
@@ -73,6 +74,7 @@ export default function RootLayout({
         <Header data={{ ...pageConfig.header, navLinks }} />
         {children}
         <FloatingWhatsAppButton href={whatsappLink} />
+        <SpeedInsights />
       </body>
     </html>
   );
